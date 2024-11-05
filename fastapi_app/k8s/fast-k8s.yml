@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: fastapi
-        image: your_dockerhub_username/fastapi-app:latest  # Replace with your actual Docker image
+        image: subrotoshill/fastapi-app:latest  # Replace with your actual Docker image
         ports:
         - containerPort: 8000
 
