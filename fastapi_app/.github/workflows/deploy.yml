@@ -24,8 +24,8 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -t your_dockerhub_username/fastapi-app:latest .
-        docker push your_dockerhub_username/fastapi-app:latest
+        docker build -t subrotoshill/fastapi-app:latest .
+        docker push subrotoshill/fastapi-app:latest
 
   deploy:
     runs-on: ubuntu-latest
